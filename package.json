@@ -1,0 +1,18 @@
+{
+  "name": "dfwproject001",
+  "version": "1.0.0",
+  "description": "ftfdfw001",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016(git://github.com/wolfeidau/bodizypha/dfwproject001.git)"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "bodizypha",
+  "license": "ISC"
+}
