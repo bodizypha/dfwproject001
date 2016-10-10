@@ -4,22 +4,467 @@
 <head>
 
     <title>Food Truck Finder Ver1</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/mystyle.css">
 </head>
 
 <body>
     <section>
-        <div class="header">header</div>
-
-        <div class="secondary">secondary</div>
-
-        <div class="content">
-            
-            
+        <div class="header">
+            <div class="FTFlogo"><img src="img/FTF.png" width="100" height="100" /></div>
         </div>
 
-        <div class="extra">extra</div>
+        <div class="secondary">
+           <div class="directory">
+               
+           </div>
+        </div>
+
+        <div class="content">
+            <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+            <script type="text/javascript">
+                var markers = [
+                    {
+                        "title": 'Vegan Noms Truck',
+                        "lat": '32.807825',
+                        "lng": ' -96.810714',
+                        "description": 'http://vegannoms.com/'
+    },
+                    {
+                        "title": 'Klyde Warren Park',
+                        "lat": '32.789361',
+                        "lng": '-96.801780',
+                        "description": 'KlydeWarrenPark.org'
+    },
+                    {
+                        "title": 'Spin Sushi',
+                        "lat": '33.049613',
+                        "lng": ' -96.752391',
+                        "description": 'spinsushi.com'
+    },
+                    {
+                        "title": 'Easy Slider Truck',
+                        "lat": '32.784312',
+                        "lng": '-96.784179',
+                        "description": 'easyslidertruck.com'
+    },
+                    {
+                        "title": 'The Dumpling Bros',
+                        "lat": '33.216113',
+                        "lng": '-97.131614',
+                        "description": 'thedumplingbros.com'
+    },
+                    {
+                        "title": 'Toadally Ice',
+                        "lat": '32.894999',
+                        "lng": '-97.270773',
+                        "description": 'toadallyice.com'
+
+    },
+                    {
+                        "title": 'Bite My Biscuit',
+                        "lat": '32.788780',
+                        "lng": '-97.350969',
+                        "description": 'bitemybiscuitdfw.com'
+    },
+                    {
+                        "title": 'Hot Cajun Meals',
+                        "lat": '32.944259',
+                        "lng": '-96.840148',
+                        "description": 'bitemybiscuitdfw.com'
+    },
+                    {
+                        "title": 'Best Bayou Bite',
+                        "lat": '32.833825',
+                        "lng": '-97.167186',
+                        "description": 'bestbayoubites.com'
+    },
+                    {
+                        "title": 'Hummingbird Sweets',
+                        "lat": '32.843104',
+                        "lng": '-97.317336',
+                        "description": 'hummingbirdsweetshoppe.com'
+    },
+                    {
+                        "title": 'Chile Pepper Grill',
+                        "lat": '32.750051',
+                        "lng": '-97.356769',
+                        "description": 'chilepeppergrill.com'
+    },
+                    {
+                        "title": 'Auntie AMs Sweet Stop',
+                        "lat": '32.766334',
+                        "lng": '-97.341060',
+                        "description": 'auntieamssweetstop.com'
+    },
+                    {
+                        "title": 'Rock and Roll Tacos',
+                        "lat": '32.747729',
+                        "lng": '-96.447871',
+                        "description": 'rockandrolltacos.com'
+    },
+                    {
+                        "title": 'ZaTaR Truck',
+                        "lat": '32.728670',
+                        "lng": '-97.358940',
+                        "description": 'zatartruck.com'
+    },
+                    {
+                        "title": 'Luckybee Kitchen',
+                        "lat": '32.705377',
+                        "lng": '-97.364533',
+                        "description": 'LuckybeeKitchen.com'
+    },
+                    {
+                        "title": 'Parallel 90 FtWorth',
+                        "lat": '32.728652',
+                        "lng": '-97.358886',
+                        "description": 'Parallel90fw.com'
+    },
+                    {
+                        "title": 'Rollin Stone Truck',
+                        "lat": '32.702880',
+                        "lng": '-97.361248',
+                        "description": 'rollin-stone.com'
+    },
+                    {
+                        "title": 'Crazy Burger FW',
+                        "lat": '32.728632',
+                        "lng": '-97.358955',
+                        "description": 'twitter.com/crazyburgerFW'
+    },
+                    {
+                        "title": 'Texas Burrito Company',
+                        "lat": '32.719638',
+                        "lng": '-96.659444',
+                        "description": 'Texasburritocompany.com'
+    },
+                    {
+                        "title": 'Kendricks BBQ and More',
+                        "lat": '33.217218',
+                        "lng": '-97.127625',
+                        "description": 'twitter.com/kendricksbbq'
+    },
+                    {
+                        "title": 'Down To Earth',
+                        "lat": '32.931525',
+                        "lng": '-97.298356',
+                        "description": 'downtoearthdfw.com'
+    },
+                    {
+                        "title": 'Gypsy Scoops',
+                        "lat": '32.773406',
+                        "lng": '-97.304917',
+                        "description": 'gypsyscoops.com'
+    },
+                    {
+                        "title": 'Parrot Icce',
+                        "lat": '33.041629',
+                        "lng": '-96.750182',
+                        "description": 'parroticce.com'
+    },
+                    {
+                        "title": 'Whats Cook N Chef',
+                        "lat": '32.756816',
+                        "lng": '-97.351476',
+                        "description": 'whatscooknchef.com'
+    },
+                    {
+                        "title": 'Gorgonzilla',
+                        "lat": '32.749102',
+                        "lng": '-97.360646',
+                        "description": 'twitter.com/eatgorgonzilla'
+    },
+                    {
+                        "title": 'Clearfork Food Park',
+                        "lat": '32.728517',
+                        "lng": '-97.359047',
+                        "description": 'clearforkfoodpark.com'
+    },
+                    {
+                        "title": 'Fort Worth Food Park',
+                        "lat": '32.756825',
+                        "lng": '-97.351465',
+                        "description": 'fwfoodpark.com'
+    },
+                    {
+                        "title": 'Gepettos Pizza Truck',
+                        "lat": '32.833825',
+                        "lng": '-97.167186',
+                        "description": 'gepettospizzatruck.com'
+    },
+                    {
+                        "title": 'Lees Grilled Cheese',
+                        "lat": '32.893546',
+                        "lng": '-97.274202',
+                        "description": 'leesgrilledcheese.com'
+    },
+                    {
+                        "title": 'So Cal Tacos',
+                        "lat": '32.893788',
+                        "lng": '-97.101490',
+                        "description": 'eatsocaltacos.com'
+    },
+                    {
+                        "title": 'Trailercakes',
+                        "lat": '32.821538',
+                        "lng": '-96.787116',
+                        "description": 'trailercakes.com'
+    },
+                    {
+                        "title": 'Sweets by Selina',
+                        "lat": '32.823796',
+                        "lng": '-96.874659',
+                        "description": 'sweetsbyselina.com'
+    },
+                    {
+                        "title": 'Whats da Scoop',
+                        "lat": '32.789383',
+                        "lng": '-96.801497',
+                        "description": 'whatsdascoop.com'
+    },
+                    {
+                        "title": 'Yummy Spiedies Truck',
+                        "lat": '32.789327',
+                        "lng": '-96.802042',
+                        "description": 'yummypizzatruck.com'
+    },
+                    {
+                        "title": 'Tuttas Pizza',
+                        "lat": '32.781669',
+                        "lng": '-96.807288',
+                        "description": 'tuttaspizza.com'
+    },
+                    {
+                        "title": 'Pop Star Dallas',
+                        "lat": '32.798171',
+                        "lng": '-96.828636',
+                        "description": 'popstardallas.com'
+    },
+                    {
+                        "title": 'Oh My Kabob',
+                        "lat": '32.816726',
+                        "lng": '-96.874150',
+                        "description": 'ohmykabob.com'
+    },
+                    {
+                        "title": 'Rockn Ricks',
+                        "lat": '32.742709',
+                        "lng": '-96.954262',
+                        "description": 'rock-n-ricks.com'
+    },
+                    {
+                        "title": 'My Cupcake Garden',
+                        "lat": '32.954908',
+                        "lng": '-96.819964',
+                        "description": 'mycupcakegarden.com'
+    },
+                    {
+                        "title": 'Mishas Kitchen DFW',
+                        "lat": '32.742655',
+                        "lng": '-96.954262',
+                        "description": 'twitter.com/mishaskitchen'
+    },
+
+                    {
+                        "title": 'Dallas Food Truck Pros',
+                        "lat": '32.742646',
+                        "lng": '-96.954283',
+                        "description": 'dallasfoodtruckpros.com'
+    },
+                    {
+                        "title": 'Cousins Maine Lobster Dallas',
+                        "lat": '32.816681',
+                        "lng": '-96.874171',
+                        "description": 'twitter.com/CMLobsterDALLAS'
+    },
+                    {
+                        "title": 'Ruthies Rolling Cafe',
+                        "lat": '32.977490',
+                        "lng": '-96.835532',
+                        "description": 'ruthiesfoodtrucks.com'
+    },
+                    {
+                        "title": 'Bombay Street Food',
+                        "lat": '32.912164',
+                        "lng": '-96.956543',
+                        "description": 'bombaystreetfood.com'
+    },
+                    {
+                        "title": 'Bid D Kona Ice',
+                        "lat": '32.967535',
+                        "lng": '-96.707766',
+                        "description": 'twitter.com/bigdkonaice'
+    },
+                    {
+                        "title": 'Aloha Shaved Ice',
+                        "lat": '32.984939',
+                        "lng": '-96.891325',
+                        "description": 'alohashaveicetruck.com'
+    },
+                    {
+                        "title": 'Abes Flavor Flave',
+                        "lat": '32.789398',
+                        "lng": '-96.801889',
+                        "description": 'abesfoodtruck.com'
+    },
+                    {
+                        "title": 'ssahm BBQ',
+                        "lat": '32.997372',
+                        "lng": '-96.843495',
+                        "description": 'ssahmbbq.com'
+    },
+                    {
+                        "title": 'Coolhaus Dallas',
+                        "lat": '32.789461',
+                        "lng": '-96.801881',
+                        "description": 'coolhausdallas.com'
+    },
+                    {
+                        "title": 'Bobaddiction',
+                        "lat": '32.731127',
+                        "lng": '-97.108757',
+                        "description": 'bobaddiction.com'
+    },
+                    {
+                        "title": 'Bellatrino',
+                        "lat": '32.777362',
+                        "lng": '-96.790387',
+                        "description": 'bellatrino.com'
+    },
+                    {
+                        "title": 'Little Greek Food Truck',
+                        "lat": '32.835946',
+                        "lng": '-96.770095',
+                        "description": 'LittleGreekFoodTruck.com'
+    },
+                    {
+                        "title": 'nammi truck',
+                        "lat": '32.929258',
+                        "lng": '-96.803630',
+                        "description": 'nammitruck.com'
+    },
+                    {
+                        "title": 'Gandolfos Dallas',
+                        "lat": '32.723905',
+                        "lng": '-96.992959',
+                        "description": 'gandolfosdelidallas.com'
+    },
+                    {
+                        "title": 'The Butchers Son',
+                        "lat": '32.789443',
+                        "lng": '-96.801806',
+                        "description": 'thebutchersson.com'
+    },
+                    {
+                        "title": 'Cajun Tailgators',
+                        "lat": '32.912164',
+                        "lng": '-96.956543',
+                        "description": 'cajuntailgators.com'
+    },
+                    {
+                        "title": 'Azucar Food Truck',
+                        "lat": '32.912164',
+                        "lng": '-96.956543',
+                        "description": 'twitter.com/foodtruckazucar'
+    },
+                    {
+                        "title": 'Chez Flo',
+                        "lat": '32.745961',
+                        "lng": '-96.953768',
+                        "description": 'twitter.com/chez_flo'
+    },
+                    {
+                        "title": 'The Guava Tree Truck',
+                        "lat": '32.814499',
+                        "lng": '-96.771206',
+                        "description": 'theguavatreetruck.com'
+    },
+                    {
+                        "title": 'Jacks Chow Hound',
+                        "lat": '32.742601',
+                        "lng": '-96.954294',
+                        "description": 'JacksChowHound.com'
+    },
+                    {
+                        "title": 'The Virgin Olive',
+                        "lat": '32.604970',
+                        "lng": '-97.148242',
+                        "description": 'thevirginolive.co'
+    },
+                    {
+                        "title": 'Not Just Q',
+                        "lat": '32.816800',
+                        "lng": '-96.874722',
+                        "description": 'notjustq.com'
+    },
+                    {
+                        "title": 'Yim Yam Truck',
+                        "lat": '32.769628',
+                        "lng": '-96.784025',
+                        "description": 'yimyamtruck.com'
+    },
+                    {
+                        "title": 'Islanders Shave Ice',
+                        "lat": '32.737945',
+                        "lng": '-97.342451',
+                        "description": 'islandersshaveice.com'
+    },
+    ];
+                window.onload = function () {
+                    LoadMap();
+                }
+
+                function LoadMap() {
+                    var mapOptions = {
+                        center: new google.maps.LatLng(markers[0].lat, markers[0].lng),
+                        zoom: 9,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+                    var map = new google.maps.Map(document.getElementById("dvMap"), mapOptions);
+
+                    //Create and open InfoWindow.
+                    var infoWindow = new google.maps.InfoWindow();
+
+                    for (var i = 0; i < markers.length; i++) {
+                        var data = markers[i];
+                        var myLatlng = new google.maps.LatLng(data.lat, data.lng);
+                        var marker = new google.maps.Marker({
+                            position: myLatlng,
+                            map: map,
+                            title: data.title
+                        });
+
+                        //Attach click event to the marker.
+                        (function (marker, data) {
+                            google.maps.event.addListener(marker, "click", function (e) {
+                                //Wrap the content inside an HTML DIV in order to set height and width of InfoWindow.
+                                infoWindow.setContent("<div style = 'width:200px;min-height:40px'>" + data.title + data.description + "</div>");
+                                infoWindow.open(map, marker);
+                            });
+                        })(marker, data);
+                    }
+                }
+            </script>
+            <div id="dvMap">
+            </div>
+
+            <a class="twitter-timeline" href="https://twitter.com/FTFDFW" width="500" height="300">Tweets by FTFDFW</a>
+            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </div>
+
+        <div class="extra">
+            <div class="johnnysad">
+                <a href="http://howdidigethere.podbean.com/" target="_blank"><img src="img/JG-logo-final-6x6.jpg" width="250" height="250" /> </a>
+            </div>
+            <br>
+            <div class="bawlsad">
+            </div>
+            <a href="http://www.bawls.com" target="_blank"> <img src="img/main_image_4.6.16.jpg" width="250" height="125" /> </a>
+        </div>
     </section>
 </body>
+<script src="js/index.js"></script>
 
 </html>
