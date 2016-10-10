@@ -2,27 +2,39 @@ body {
     background-color: gray;
     width: 100%;
 }
-
+.FTFlogo {
+    padding: 5px;
+}
 .header {
     width: 1020px;
     height: 100px;
-    background-color: lightgray;
     margin: 5px;
+    background-image: url(../img/headerftfdfw2.png);
+    
 }
 .secondary, .extra {
     width: 250px;
-    height: 500px;
-    background-color: lightgray;
+    height: 600px;
     float: left;
     margin: 5px;
 }
 .content {
     width: 500px;
-    height: 500px;
-    background-color: lightgray;
+    height: 600px;
     float: left;
     margin: 5px;
 }
+.johnnysad {
+    
+}
+.bawlsad {
+    
+}
+#dvMap {
+    width: 500px;
+    height: 300px;
+}
+
 @media screen and (max-width: 993px) {
     body {
         background-color: lightblue;
@@ -30,9 +42,10 @@ body {
 }
 @media screen and (max-width: 768px) {
     .extra {
-        display: none;
+        display: 766px;
     }
     .header {
-        width: 766px;
+        width: 500px;
+        background-image: none;
     }
 }
