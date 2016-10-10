@@ -9,7 +9,13 @@ body {
     width: 1020px;
     height: 100px;
     margin: 5px;
-    background-image: url(../img/headerftfdfw2.png);
+    background-image: url(../img/headerftfdfw3.png);
+    
+}
+.directory {
+    width: 250px;
+    height: 250px;
+    border: black solid 2px;
     
 }
 .secondary, .extra {
