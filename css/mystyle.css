@@ -12,10 +12,9 @@ body {
     background-image: url(../img/headerftfdfw3.png);
     
 }
-.directory {
+.login {
     width: 250px;
     height: 250px;
-    border: black solid 2px;
     
 }
 .secondary, .extra {
