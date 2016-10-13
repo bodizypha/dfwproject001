@@ -53,7 +53,7 @@
                         "title": 'Vegan Noms Truck',
                         "lat": '32.807825',
                         "lng": ' -96.810714',
-                        "description": 'http://vegannoms.com/'
+                        "description": '<a href="http://twitter.com/VeganNomsTX">'
     },
                     {
                         "title": 'Klyde Warren Park',
@@ -246,7 +246,7 @@
                         "title": 'Whats da Scoop',
                         "lat": '32.789383',
                         "lng": '-96.801497',
-                        "description": 'whatsdascoop.com'
+                        "description": 'http://www.whatsdascoop.com'
     },
                     {
                         "title": 'Yummy Spiedies Truck',
@@ -435,6 +435,18 @@
                         "lng": '-97.342451',
                         "description": 'islandersshaveice.com'
     },
+                    {
+                        "title": 'Richardson Food Park',
+                        "lat": '32.957459',
+                        "lng": '-96.728825',
+                        "description": 'https://twitter.com/richardsonftp'
+    },
+                    {
+                        "title": 'Lean Machine',
+                        "lat": '33.216080',
+                        "lng": '-97.131797',
+                        "description": 'http://twitter.com/LeanMachineUSA'
+    },
     ];
                 window.onload = function () {
                     LoadMap();
@@ -464,7 +476,7 @@
                         (function (marker, data) {
                             google.maps.event.addListener(marker, "click", function (e) {
                                 //Wrap the content inside an HTML DIV in order to set height and width of InfoWindow.
-                                infoWindow.setContent("<div style = 'width:200px;min-height:40px'>" + data.title + data.description + "</div>");
+                                infoWindow.setContent("<div style = 'width:200px;min-height:40px'>" + data.title + '<br>' + data.description + "</div>");
                                 infoWindow.open(map, marker);
                             });
                         })(marker, data);
@@ -474,7 +486,7 @@
             <div id="dvMap">
             </div>
             <!--twitter api-->
-            <a class="twitter-timeline" href="https://twitter.com/FTFDFW" width="500" height="300">Tweets by FTFDFW</a>
+            <a class="twitter-timeline" href="https://twitter.com/FTFDFW" width="500" height="375">Tweets by FTFDFW</a>
             <script async src="http://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         </div>
