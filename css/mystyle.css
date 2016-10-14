@@ -1,5 +1,5 @@
 body {
-    background-color: gray;
+    background-color: lightgreen;
     margin-left: 5%;
 }
 
@@ -55,6 +55,6 @@ body {
     }
     .header {
         width: 500px;
-        background-image: none;
+        background-image:url(../img/smheaderftfdfw.png);
     }
 }
