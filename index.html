@@ -46,6 +46,8 @@
 
         <div class="content">
             <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUSuuqxMw0DZ4C7zJPiGal_HwUcOA3bis&callback=initMap"
+    async defer></script>
             <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
             <script type="text/javascript">
                 var markers = [
@@ -673,6 +675,13 @@
                         "lat": '33.213640',
                         "lng": '-97.132616',
                         "description": '<a href="https://twitter.com/HoagieSlingers" target="_blank">@HoagieSlingers</a>'
+    },
+                    {
+                        "title": 'Lolas Trailer Park',
+                        "type": 'Food Truck Park',
+                        "lat": '32.753030',
+                        "lng": '-97.356251',
+                        "description": '<a href="https://twitter.com/TrailerParkFWTX" target="_blank">@LolasTrailerPark</a>'
     },
     ];
                 window.onload = function () {
