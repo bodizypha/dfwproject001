@@ -1,0 +1,311 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Su",
+				"SubbredditModel"
+			],
+			[
+				"fu",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/phpsqliteconnect/index.php",
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/phpsqliteconnect/app/SQLiteConnection.php",
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/phpsqliteconnect/app/Config.php",
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/phpsqliteconnect/composer.json",
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/index.html",
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/package.json",
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/.env",
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/node_modules/dotenv/README.md",
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/node_modules/backbone-sql/node_modules/knex/.env",
+		"/C/Users/bodizypha/Documents/sites/dfwproject001/css/mystyle.css",
+		"/C/Users/bodizypha/Documents/sites/foodtruck214/README.md",
+		"/C/Users/bodizypha/Documents/sites/foodtruck214/package.json",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/perlproject/tabledata.pl",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/JP002/database/readingfile.pl",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/perlproject/insertoperation.pl",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/Assessment/functions.js",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/Assessment/index.html",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/Assessment/tableData.js",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/Assessment/laravel/.env",
+		"/C/Users/bodizypha/Documents/sites/newhomepage/.env",
+		"/C/Users/bodizypha/Documents/sites/newhomepage/config/database.php",
+		"/C/Users/bodizypha/Documents/sites/hackathon/python",
+		"/C/Users/bodizypha/aca-campus/views/request.py",
+		"/C/Users/bodizypha/aca-campus/.env",
+		"/C/Users/bodizypha/Documents/sites/A Wild Hair/awildhair.html",
+		"/C/Users/bodizypha/Documents/sites/A Wild Hair/css/mystyle-wh.css",
+		"/C/Users/bodizypha/Documents/sites/A Wild Hair/index.html",
+		"/C/Users/bodizypha/FTFATX/resources/views/welcome.blade.php",
+		"/C/Users/bodizypha/Code/breddit/.env",
+		"/C/Users/bodizypha/Code/breddit/package.json",
+		"/C/Users/bodizypha/Downloads/resume.json",
+		"/C/Users/bodizypha/Code/breddit/composer.json",
+		"/C/Users/bodizypha/Code/breddit/gulpfile.js",
+		"/C/Users/bodizypha/Code/breddit/readme.md",
+		"/C/Users/bodizypha/Code/breddit/public/js/app.js",
+		"/C/Users/bodizypha/Code/breddit/storage/logs/laravel.log",
+		"/C/Users/bodizypha/Code/breddit/app/Http/Controllers/SubbredditsController.php",
+		"/C/Users/bodizypha/Code/breddit/app/Http/Controllers/PostsController.php",
+		"/C/Users/bodizypha/Code/breddit/app/Http/Controllers/HomeController.php",
+		"/C/Users/bodizypha/Code/breddit/app/Http/routes.php",
+		"/C/Users/bodizypha/Code/breddit/public/src/js/app.js",
+		"/C/Users/bodizypha/Code/breddit/public/src/js",
+		"/C/Users/bodizypha/Code/breddit/app/Http/Controllers/Auth/AuthController.php",
+		"/C/Users/bodizypha/Code/breddit/public/js/bundle.js",
+		"/C/Users/bodizypha/Code/breddit/app/Http/Controllers/CommentsController.php",
+		"/C/Users/bodizypha/Code/breddit/public/js/Collections/PostsCollection.js",
+		"/C/Users/bodizypha/Code/breddit/public/js/Collections/CommentsCollections.js",
+		"/C/Users/bodizypha/Code/breddit/public/js/views/SubbredditsListView.js",
+		"/C/Users/bodizypha/Code/breddit/resources/views/home.blade.php",
+		"/C/Users/bodizypha/Code/breddit/public/js/Collections/SubbredditsCollection.js",
+		"/C/Users/bodizypha/Code/breddit/public/js/models/SubbredditModel.js",
+		"/C/Users/bodizypha/Code/breddit/public/js/models/CommentModel.js",
+		"/C/Users/bodizypha/Code/breddit/public/js/models/PostModel.js",
+		"/C/Users/bodizypha/Code/breddit/public/js/views/HomeView.js",
+		"/C/Users/bodizypha/Code/breddit/public/js/views/PostsListView.js",
+		"/C/Users/bodizypha/Code/breddit/public/js/test.js",
+		"/C/Users/bodizypha/.homestead/Homestead.yaml",
+		"/C/Users/bodizypha/etc/host",
+		"/C/Users/bodizypha/breddit/public/js/app.js",
+		"/C/Users/bodizypha/breddit/resources/views/home.blade.php",
+		"/C/Users/bodizypha/breddit/app/Http/Controllers/PostsController.php",
+		"/C/Users/bodizypha/breddit/app/Post.php",
+		"/C/Users/bodizypha/FTFATX/resources/views/home.blade.php",
+		"/C/Users/bodizypha/FTFATX/resources/views/vendor/home.blade.php",
+		"/C/Users/bodizypha/breddit/storage/logs/laravel.log",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_17_192328_add_indices.php",
+		"/C/Users/bodizypha/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/bodizypha/brello/resources/views/welcome.blade.php",
+		"/C/Users/bodizypha/brello/public/js/app.js",
+		"/C/Users/bodizypha/brello/app/Http/Controllers/LanesController.php",
+		"/C/Users/bodizypha/brello/database/migrations/2016_02_24_023855_create_lanes_table.php",
+		"/C/Users/bodizypha/brello/database/migrations/2016_02_24_024153_create_tags_table.php",
+		"/C/Users/bodizypha/bocket/public/js/app.js",
+		"/C/Users/bodizypha/bocket/resources/views/welcome.blade.php",
+		"/C/Users/bodizypha/breddit/app/Http/routes.php",
+		"/C/Users/bodizypha/breddit/app/Http/Middleware/Authenticate.php",
+		"/C/Users/bodizypha/breddit/app/Http/Controllers/SubbredditsController.php",
+		"/C/Users/bodizypha/breddit/app/Http/Kernel.php",
+		"/C/Users/bodizypha/breddit/app/Http/Controllers/CommentsController.php",
+		"/C/Users/bodizypha/breddit/resources/views/layouts/app.blade.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_12_005316_create_subbreddit_user_table.php",
+		"/C/Users/bodizypha/breddit/database/factories/ModelFactory.php",
+		"/C/Users/bodizypha/breddit/composer.json",
+		"/C/Users/bodizypha/breddit/config/app.php",
+		"/C/Users/bodizypha/brello/database/migrations/2016_02_24_024439_create_tag_task_table.php",
+		"/C/Users/bodizypha/brello/app/Http/routes.php",
+		"/C/Users/bodizypha/brello/app/Http/Controllers/TagsContoller.php",
+		"/C/Users/bodizypha/brello/app/Http/Controllers/LanesContoller.php",
+		"/C/Users/bodizypha/brello/app/Http/Controllers/TasksContoller.php",
+		"/C/Users/bodizypha/brello/database/migrations/2016_02_24_024134_create_tasks_table.php",
+		"/C/Users/bodizypha/breddit/app/Http/Controllers/HomeController.php",
+		"/C/Users/bodizypha/breddit/database/seeds/DatabaseSeeder.php",
+		"/C/Users/bodizypha/breddit/app/Subbreddit.php",
+		"/C/Users/bodizypha/breddit/app/User.php",
+		"/C/Users/bodizypha/brello/app/Tag.php",
+		"/C/Users/bodizypha/brello/app/Task.php",
+		"/C/Users/bodizypha/brello/app/Lane.php",
+		"/C/Users/bodizypha/brello/.env",
+		"/C/Users/bodizypha/breddit/app/Http/Controllers/UsersController.php",
+		"/C/Users/bodizypha/breddit/app/Http/Controllers/SubbredditController.php",
+		"/C/Users/bodizypha/breddit/database/database.sqlite-journal",
+		"/C/Users/bodizypha/FTFATX/.env",
+		"/C/Users/bodizypha/breddit/app/Http/Controllers/Subbredditcontroller.php",
+		"/C/Users/bodizypha/breddit/database/database.sqlite",
+		"//UNWOUND/Users/bodizypha/bitter/database/migrations/2016_02_14_174311_create_posts_table.php",
+		"//UNWOUND/Users/bodizypha/bitter/database/migrations/2016_02_14_174357_create_post_user_table.php",
+		"//UNWOUND/Users/bodizypha/bitter/.env",
+		"/C/Users/bodizypha/bocket/database/migrations/2016_02_14_150623_create_tags_table.php",
+		"/C/Users/bodizypha/bocket/database/migrations/2016_02_14_150733_create_bookmark_tags_table.php",
+		"/C/Users/bodizypha/bocket/database/migrations/2016_02_12_233443_create_bookmark.php",
+		"/C/Users/bodizypha/bocket/.env",
+		"/C/Users/bodizypha/breddit/app/Comment.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_12_005445_create_comments_table.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_12_005558_create_posts_table.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_12_003711_create_users_subbreddits.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_12_002300_create_subbreddits.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_11_022341_create_subbreddit.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_11_025305_create_subbreddit_user_table.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_11_025350_create_comments_table.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_11_025421_create_posts_table.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2016_02_11_031417_add_url_column_to_posts_table.php",
+		"/C/Users/bodizypha/breddit/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/Users/bodizypha/breddit/.env",
+		"/C/Users/bodizypha/breddit/config/database.php",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/FullStack/breddit/config/queue.php",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/FullStack/breddit/app/User.php",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/FullStack/breddit/config/app.php",
+		"/C/Users/bodizypha/Documents/AustinCodingAcademy/FullStack/breddit/config/database.php"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"C:\\Users\\bodizypha\\Code\\breddit",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"SubbredditMode",
+			"assets",
+			"script",
+			"api",
+			"SubbredditsListView",
+			"subbredditsListView",
+			"SubbredditsListView",
+			"$subbreddit",
+			"DB_CONNECTION"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "SQLiteConnection.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 254.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
